@@ -36,6 +36,17 @@
 <body class="m-scene page" id="main">
 {% block body %}
     <section id="body" class="{{ class }}">
+        <!--[if lt IE 11]>
+        <div class="old-browser">
+            <h2 class="bigger red">Whoaaaaa man...</h2>
+            <p>Switch to another browser, or you might get hurt!!!</p>
+        </div>
+        <![endif]-->
+        <div id="loader">
+            <figure>
+                <img src="{{ url('theme://images/logo-white.svg') }}" alt="Collab Ventures">
+            </figure>
+        </div>
         {% block content %}{% endblock %}
     </section>
 {% endblock %}

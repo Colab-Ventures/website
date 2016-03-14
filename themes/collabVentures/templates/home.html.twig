@@ -3,7 +3,109 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
+		<main class="wrapper page-title">
 
+			{% include 'partials/navigation.html.twig' %}
+
+			<!-- content -->
+			<div class="m-page scene_element scene_element--fadeinup">
+				<div class="et-wrapper">
+					<section class="et-page" id="page-1" data-et-id="1">
+						<div class="page-wrap">
+							<h1 class="wow fadeInUp">Hi, We are <span class="cyan">Collab</span>Ventures</h1>
+							<div class="title-subhead wow fadeInUp">
+								<p>
+									We are an amalgamation of a angel/incubator/venture company.
+									We look at early and very early stage companies where the concept is simple as this where we can create the most value.
+									We do not like overbearing business analogies, accurnimes or management directives. We like to look at the core of the business idea, and if we believe in it, and more importantly believe in the people, we will get involved.
+									We invest in what we love, we are not restricted by any industry or concept.
+								</p>
+								<div class="h-wrap">
+									<a href="portfolio.html" class="button h-button">Apply now<span></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="trigger trigger-down et-rotate" et-in="moveFromBottomFade" data-page-id="2" et-out="rotateFoldTop">
+							<div>My Clients </div>
+							<span class="icon-arrow-down2"></span>
+						</div>
+					</section>
+					<section class="et-page" id="page-2" data-et-id="2">
+						<div class="trigger trigger-up et-rotate" et-in="moveFromTopFade" data-page-id="1" et-out="rotateFoldBottom">
+							<span class="icon-arrow-up2"></span>
+							<div>Designer </div>
+						</div>
+						<div class="trigger trigger-down et-rotate" et-in="moveFromBottomFade" data-page-id="3" et-out="rotateFoldTop">
+							<div>Contact me</div>
+							<span class="icon-arrow-down2"></span>
+						</div>
+						<img class="title-bg" src="{{ url('theme://images/title-bg-red.jpg') }}" alt="background image" />
+						<div class="page-wrap">
+							<h1>Strong <span class="red">brands</span></h1>
+							<div class="title-subhead">
+
+								<p>I was honored to work for the biggest brands in the Slovak market. It helps me to understand client's business and choose the right approach for improvement</p>
+
+								<div class="partners">
+									<a href="http://www.joj.sk/" target="_blank" title="TV JOJ">
+										<figure >
+											<img src="{{ url('theme://images/partners/part-joj.png') }}" alt="TV JOJ" />
+										</figure>
+									</a>
+									<a href="http://efabrica.sk/" target="_blank" title="eFabrica">
+										<figure>
+											<img src="{{ url('theme://images/partners/part-efabrica.png') }}" alt="eFabrica" />
+										</figure>
+									</a>
+									<a href="http://www.hcslovan.sk/" target="_blank" title="HC Slovan">
+										<figure>
+											<img src="{{ url('theme://images/partners/part-slovan.png') }}" alt="HC Slovan" />
+										</figure>
+									</a>
+									<a href="http://www.empire-skola.sk/" target="_blank" title="Empire know-how institute">
+										<figure>
+											<img src="{{ url('theme://images/partners/part-empire.png') }}" alt="Empire know-how institute" />
+										</figure>
+									</a>
+									<br />
+									<a href="https://www.streamstar.com/" target="_blank" title="Streamstar">
+										<figure>
+											<img src="{{ url('theme://images/partners/part-streamstar.png') }}" alt="Streamstar" />
+										</figure>
+									</a>
+									<a href="http://www.gadrilling.com/" target="_blank" title="GA Drilling">
+										<figure>
+											<img src="{{ url('theme://images/partners/part-drilling.png') }}" alt="GA Drilling" />
+										</figure>
+									</a>
+									<a href="http://unterkunft-suche.eu/index.html" target="_blank" title="Unterkunft suche">
+										<figure>
+											<img src="{{ url('theme://images/partners/part-unterkunft.png') }}" alt="Unterkunft suche" />
+										</figure>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="et-page" id="page-3" data-et-id="3">
+						<div class="trigger trigger-up et-rotate" et-in="moveFromTopFade" data-page-id="2" et-out="rotateFoldBottom">
+							<span class="icon-arrow-up2"></span>
+							<div>Clients </div>
+						</div>
+						<img class="title-bg" src="{{ url('theme://images/title-bg-blue.jpg') }}" alt="background image" />
+						<div class="page-wrap">
+							<h1>I build  <span class="blue">partnerships</span></h1>
+							<div class="title-subhead">
+								<p>I am honest, &amp; discreet "engineer" focusing on your goals. I like to communicate, cooperate and build long-term partnerships</p>
+								<div class="h-wrap">
+									<a href="contact.html" class="button h-button">Let's work<span></span></a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
 	{% endblock %}
 
 {% endembed %}

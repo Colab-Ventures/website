@@ -3,51 +3,11 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
-		<div id="loader">
-			<figure>
-				<img src="{{ url('theme://images/logo-white.svg')}}" alt="Collab Ventures">
-			</figure>
-		</div>
-		<div id="cssda" class="award-badge">
-			<a href="http://www.cssdesignawards.com/sites/web-ux-designer-juraj-molnar/26713/" target="_blank">Site of the day</a>
-		</div>
+
 		<main class="wrapper">
-			<!-- navigation -->
-			<div id="logo">
-				<a href="index.html" title="Collab Ventures">
-					<figure>
-						<img src="{{ url('theme://images/logo-dark.svg')}}" alt="Collab Ventures">
-					</figure>
-				</a>
-			</div>
-			<div id="nav-icon">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<!-- navigation -->
-			<div class="menu-trigger">
-				<nav id="menu" class="cl-effect-3">
-					<ul class="menu">
-						<li class="m-1"><a href="index.html" data-type="page-transition">home</a></li>
-						<li class="m-2"><a href="index.html" data-type="page-transition">the team</a></li>
-						<li class="m-3"><a href="index.html" data-type="page-transition">portfolio</a></li>
-						<li class="m-4"><a href="index.html" data-type="page-transition">apply</a></li>
-						<li class="m-5"><a href="index.html" data-type="page-transition">how we work</a></li>
-						<li class="m-6"><a href="index.html" data-type="page-transition">work with us</a></li>
-						<li class="menu-social">Connect with me
-							<ul>
-								<li class="s-1"><a href="https://www.facebook.com/idwebsk" target="_blank" title="Facebook"><span class="icon-facebook"></span></a></li>
-								<li class="s-2"><a href="https://twitter.com/jm_uxdesign" target="_blank" title="Twitter"><span class="icon-twitter"></span></a></li>
-								<li class="s-4"><a href="http://jurajmolnar.deviantart.com/" target="_blank" title="Deviantart"><span class="icon-deviantart"></span></a></li>
-								<li class="s-5"><a href="https://dribbble.com/jurajmolnar" target="_blank" title="Dribbble"><span class="icon-dribbble"></span></a></li>
-								<li class="s-6"><a href="https://www.behance.net/jurajmolnar" target="_blank" title="Behance"><span>Be</span></a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
+
+			{% include 'partials/navigation.html.twig' %}
+
 			<div class="m-right-panel m-page scene_element scene_element--fadeinup">
 				<!-- top -->
 				<header class="green-bg color-wrap wow fadeInUp">

@@ -1164,7 +1164,7 @@ table {
 
 #cssda a {
     position: absolute;
-    color: #2fc989;
+    color: #0075c9;
     top: 0;
     left: 0;
     display: block;
@@ -1190,7 +1190,7 @@ table {
 
 #awwwards a {
     position: absolute;
-    color: #2fc989;
+    color: #0075c9;
     top: 0;
     left: 0;
     display: block;
@@ -1698,7 +1698,7 @@ a.strong {
 }
 
 a.strong.cyan {
-    border-color: #2fc989
+    border-color: #0075c9
 }
 
 a.strong.blue {
@@ -1814,7 +1814,7 @@ a.inline-link:hover::after {
 }
 
 .header-line.cyan::before {
-    background-color: #2fc989
+    background-color: #0075c9
 }
 
 .uppercase {
@@ -1864,7 +1864,7 @@ a.inline-link:hover::after {
 
 .success {
     margin-top: 1em;
-    background-color: #2fc989;
+    background-color: #0075c9;
     font-weight: 700;
     padding: 5px
 }
@@ -1907,7 +1907,7 @@ a.inline-link:hover::after {
 }
 
 .cyan-bg {
-    background-color: #2fc989
+    background-color: #0075c9
 }
 
 .green-bg {
@@ -1973,7 +1973,7 @@ a.inline-link:hover::after {
 }
 
 .fb-cyan {
-    background-color: #2fc989;
+    background-color: #0075c9;
     color: #fff
 }
 
@@ -2008,7 +2008,7 @@ a.inline-link:hover::after {
 }
 
 .cyan {
-    color: #2fc989
+    color: #0075c9
 }
 
 .green {
@@ -2404,7 +2404,7 @@ body::before {
     top: -5px;
     width: 200%;
     height: 110%;
-    background-color: #2fc989;
+    background-color: #0075c9;
     z-index: 5000;
     opacity: 1;
     left: -20%;
@@ -2507,7 +2507,7 @@ body::before {
     content: "";
     display: block;
     position: absolute;
-    background-color: #2fc989;
+    background-color: #0075c9;
     top: -5%;
     left: -210%;
     width: 200%;
@@ -2617,7 +2617,7 @@ body::before {
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #2fc989;
+    background-color: #0075c9;
     position: absolute;
     bottom: .5em;
     left: 0
@@ -2664,7 +2664,7 @@ body::before {
 }
 
 .color-wrap.light-color .services::before {
-    background-color: #2fc989
+    background-color: #0075c9
 }
 
 .right .services h4 {
@@ -3276,7 +3276,7 @@ body::before {
 }
 
 .menu-trigger.opened a.active, .menu-trigger.opened a:hover {
-    color: #2fc989
+    color: #0075c9
 }
 
 .menu-trigger.opened .menu-social {
@@ -3306,7 +3306,7 @@ body::before {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
-    background-color: #2fc989
+    background-color: #0075c9
 }
 
 .menu-trigger.opened .s-1 a::after, .menu-trigger.opened .s-1 a::before, .menu-trigger.opened .s-2 a::after, .menu-trigger.opened .s-2 a::before, .menu-trigger.opened .s-3 a::after, .menu-trigger.opened .s-3 a::before, .menu-trigger.opened .s-4 a::after, .menu-trigger.opened .s-4 a::before, .menu-trigger.opened .s-5 a::after, .menu-trigger.opened .s-5 a::before, .menu-trigger.opened .s-6 a::after, .menu-trigger.opened .s-6 a::before {
@@ -3331,7 +3331,7 @@ body::before {
     -webkit-transition: all 350ms cubic-bezier(.215, .61, .215, 1);
     -moz-transition: all 350ms cubic-bezier(.215, .61, .215, 1);
     -o-transition: all 350ms cubic-bezier(.215, .61, .215, 1);
-    background-color: #2fc989;
+    background-color: #0075c9;
     display: block;
     content: "";
     height: 2px;
@@ -3433,12 +3433,12 @@ body::before {
 }
 
 #page-1 .h-button {
-    border-color: #2fc989;
-    color: #2fc989
+    border-color: #0075c9;
+    color: #0075c9
 }
 
 #page-1 .h-button::after {
-    background-color: #2fc989
+    background-color: #0075c9
 }
 
 #page-3 .h-button {
@@ -3662,7 +3662,7 @@ body::before {
     position: absolute;
     top: -5%;
     left: -230%;
-    background-color: #2fc989;
+    background-color: #0075c9;
     opacity: .1;
     z-index: 30;
     transform: skew(-15deg, 0);
@@ -3739,7 +3739,7 @@ body::before {
     position: absolute;
     top: -5%;
     left: -230%;
-    background-color: #2fc989;
+    background-color: #0075c9;
     opacity: .1;
     z-index: 30;
     transform: skew(-15deg, 0);
@@ -3750,7 +3750,7 @@ body::before {
 }
 
 .grid .grid-item.cyan h2::after, .grid .grid-item.cyan::after {
-    background-color: #2fc989
+    background-color: #0075c9
 }
 
 .grid .grid-item.blue h2::after, .grid .grid-item.blue::after {
@@ -3803,7 +3803,7 @@ body::before {
 }
 
 .grid .grid-item.cyan:hover h2 {
-    color: #2fc989
+    color: #0075c9
 }
 
 .grid .grid-item.blue:hover h2 {
@@ -4003,7 +4003,7 @@ body::before {
     content: "";
     display: block;
     position: absolute;
-    background-color: #2fc989;
+    background-color: #0075c9;
     top: -5%;
     left: -200%;
     width: 150%;
@@ -4193,7 +4193,7 @@ body::before {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
-    background-color: #2fc989;
+    background-color: #0075c9;
     color: #fff
 }
 
