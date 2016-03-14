@@ -5041,3 +5041,74 @@ body::before {
         padding: 15px
     }
 }
+
+/* portfolio custom start */
+.box-grid {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box-grid__box {
+    width: 300px;
+    height: 300px;
+}
+
+.box-grid__box--media {
+
+}
+
+.box-grid__box--text {
+    border: 20px solid #f2f2f2;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.box-grid__box--text span {
+    color: #626262;
+    line-height: 1.5;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: 100;
+}
+/* portfolio custom end */
+
+@media screen and (max-width: 640px) {
+    .box-grid {
+        width: 100%;
+    }
+    .box-grid__box {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+    .box-grid__box--text span {
+        font-size: 16px;
+    }
+    .box-grid__box img {
+        width: 100%;
+    }
+    .box-grid div:nth-child(1) {
+        order:1
+    }
+    .box-grid div:nth-child(2) {
+        order:2
+    }
+    .box-grid div:nth-child(3) {
+        order:4
+    }
+    .box-grid div:nth-child(4) {
+        order:3
+    }
+    .box-grid div:nth-child(5) {
+        order:5
+    }
+    .box-grid div:nth-child(6) {
+        order:6
+    }
+}
