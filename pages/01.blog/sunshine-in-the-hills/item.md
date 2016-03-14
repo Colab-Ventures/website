@@ -1,6 +1,6 @@
 ---
-title: Sunshine in the Hills
-date: 14:55 07/07/2014
+title: Staging in the Hills
+date: 14:55 07/11/2014
 author: Tasha X. Maxwell
 taxonomy:
     category: blog
