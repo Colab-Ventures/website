@@ -1226,7 +1226,7 @@ table {
 }
 
 .Italic {
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-weight: 400;
     text-transform: none;
     font-style: italic
@@ -1279,7 +1279,7 @@ body.page h1 {
 }
 
 body.page h1 span {
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     display: block;
     font-style: italic;
     font-size: .225em;
@@ -1297,7 +1297,7 @@ body.page h2 {
 
 body.page h2 span {
     display: block;
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-style: italic;
     font-size: .3em;
     letter-spacing: .1em;
@@ -1324,7 +1324,7 @@ body .et-wrapper h1 {
 }
 
 body .et-wrapper h1 span {
-    font-family: Montserrat, sans-serif, sans-serif;
+    font-family: Helvetica Neue, sans-serif, sans-serif;
     font-style: normal;
     display: inline-block;
     font-size: 1em;
@@ -1336,7 +1336,7 @@ body .et-wrapper h1 span {
 }
 
 div.partners {
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     font-size: .75em;
     font-weight: 700
 }
@@ -1591,7 +1591,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     text-transform: uppercase;
     line-height: 1.25em;
-    font-family: Montserrat, sans-serif, sans-serif;
+    font-family: Helvetica Neue, sans-serif, sans-serif;
     word-wrap: break-word !important
 }
 
@@ -1603,7 +1603,7 @@ h1 {
 }
 
 h1 span {
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-style: italic
 }
 
@@ -1722,7 +1722,7 @@ a.strong.pink {
 }
 
 a.strong.green {
-    border-color: #80c918
+    border-color: #1c68e7
 }
 
 a.strong.yellow {
@@ -1760,11 +1760,11 @@ a.inline-link::after {
 }
 
 a.inline-link:hover {
-    color: #80c918
+    color: #1c68e7
 }
 
 a.inline-link:hover::after {
-    background-color: #80c918;
+    background-color: #1c68e7;
     width: 120%;
     left: -10%
 }
@@ -1790,7 +1790,7 @@ a.inline-link:hover::after {
 }
 
 .header-line.green::before {
-    background-color: #80c918
+    background-color: #1c68e7
 }
 
 .header-line.orange::before {
@@ -1825,11 +1825,11 @@ a.inline-link:hover::after {
     font-size: 3em;
     text-transform: uppercase;
     margin-top: 0;
-    color: #80c918
+    color: #1c68e7
 }
 
 .italic {
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-style: italic
 }
 
@@ -1897,7 +1897,7 @@ a.inline-link:hover::after {
 }
 
 .body-font {
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-style: italic;
     font-weight: 400
 }
@@ -1911,7 +1911,7 @@ a.inline-link:hover::after {
 }
 
 .green-bg {
-    background-color: #80c918
+    background-color: #1c68e7
 }
 
 .blue-bg {
@@ -1943,7 +1943,7 @@ a.inline-link:hover::after {
 }
 
 .fb-green {
-    background-color: #80c918;
+    background-color: #1c68e7;
     color: #fff
 }
 
@@ -2012,7 +2012,7 @@ a.inline-link:hover::after {
 }
 
 .green {
-    color: #80c918
+    color: #1c68e7
 }
 
 .blue {
@@ -2136,7 +2136,7 @@ form#contactform .h-button {
     background-color: #fff;
     border: none;
     color: #252627;
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     font-size: 100%;
     padding: 22px 0;
     width: 50%;
@@ -2455,7 +2455,7 @@ body::before {
     -o-transition-delay: .1s;
     -ms-transition-delay: .1s;
     transition-delay: .1s;
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     font-style: normal;
     position: relative;
     text-decoration: none;
@@ -2595,7 +2595,7 @@ body::before {
     -o-transition-delay: .15s;
     -ms-transition-delay: .15s;
     transition-delay: .15s;
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-size: 1.15em;
     margin: 1em 0;
     padding: 0;
@@ -2628,7 +2628,7 @@ body::before {
 }
 
 .services.green::before {
-    background-color: #80c918
+    background-color: #1c68e7
 }
 
 .services.orange::before {
@@ -2678,7 +2678,7 @@ body::before {
     -o-border-radius: 50%;
     position: relative;
     display: block;
-    border: 3px solid #80c918;
+    border: 3px solid #1c68e7;
     width: 160px;
     margin: 0 auto;
     height: 160px
@@ -2698,7 +2698,7 @@ body::before {
     text-align: center;
     font-size: 3em;
     line-height: 160px;
-    color: #80c918
+    color: #1c68e7
 }
 
 .circle-icon svg {
@@ -3163,7 +3163,7 @@ body::before {
     -moz-transition: all 300ms cubic-bezier(.235, .625, .07, .98);
     -o-transition: all 300ms cubic-bezier(.235, .625, .07, .98);
     display: block;
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     font-style: normal;
     text-align: center;
     width: 100%;
@@ -3383,7 +3383,7 @@ body::before {
 }
 
 .et-page p {
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-style: italic;
     font-size: 1.15em
 }
@@ -3483,7 +3483,7 @@ body::before {
     text-transform: uppercase;
     font-size: .75em;
     letter-spacing: .2em;
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     z-index: 5999;
     color: rgba(37, 38, 39, .5);
     transform: translate(-50%, 0);
@@ -3592,7 +3592,7 @@ body::before {
     background: 0 0;
     border-color: #1c68e7;
     color: #1c68e7;
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     font-size: 100%
 }
 
@@ -3771,7 +3771,7 @@ body::before {
 }
 
 .grid .grid-item.green h2::after, .grid .grid-item.green::after {
-    background-color: #80c918
+    background-color: #1c68e7
 }
 
 .grid .grid-item.violet h2::after, .grid .grid-item.violet::after {
@@ -3828,7 +3828,7 @@ body::before {
 }
 
 .grid .grid-item.green:hover h2 {
-    color: #80c918
+    color: #1c68e7
 }
 
 .grid .grid-item.violet:hover h2 {
@@ -3930,7 +3930,7 @@ body::before {
     top: -1.15em;
     font-size: 4em;
     text-transform: none;
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     line-height: .95em;
     font-weight: 400;
     color: rgba(37, 38, 39, .05)
@@ -3942,7 +3942,7 @@ body::before {
     -moz-transition: .35s;
     -o-transition: .35s;
     font-size: 1.25em;
-    font-family: Lora, serif;
+    font-family: Helvetica Neue, serif;
     font-style: italic;
     display: block;
     line-height: 1em;
@@ -4033,7 +4033,7 @@ body::before {
 }
 
 .related-projects .rel-item.green:hover::after {
-    background-color: #80c918
+    background-color: #1c68e7
 }
 
 .related-projects .rel-item.yellow:hover::after {
@@ -4209,7 +4209,7 @@ body::before {
 .contact {
     height: 100vh;
     padding: 0;
-    background: url(../images/contact-bg.jpg) top left no-repeat #80c918;
+    background: url(../images/contact-bg.jpg) top left no-repeat #1c68e7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
