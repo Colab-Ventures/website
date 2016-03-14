@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Apply
 blog_url: apply
 body_classes: header-image fullwidth
 

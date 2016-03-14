@@ -1,6 +1,6 @@
 
 ---
-title: Home
+title: Portfolio
 blog_url: portfolio
 body_classes: header-image fullwidth
 
