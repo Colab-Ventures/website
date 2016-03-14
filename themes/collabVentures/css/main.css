@@ -1537,7 +1537,7 @@ div.partners figure:hover img {
 }
 
 #back-top:hover {
-    background-color: #252627
+    background-color: #4299d7
 }
 
 #back-top span {
@@ -1617,7 +1617,10 @@ h3 {
 }
 
 h4 {
-    font-size: 1.55em
+    font-size: 1.55em;
+    color: #0075c9;
+    margin-bottom: 0;
+    font-weight: 500;
 }
 
 h5 {
@@ -1678,6 +1681,10 @@ canvas {
 .big {
     font-size: 1.5em;
     font-style: normal
+}
+
+.big--team {
+    margin-top: 0;
 }
 
 .bigger {
@@ -2016,7 +2023,7 @@ a.inline-link:hover::after {
 }
 
 .blue {
-    color: #1c68e7
+    color: #4299d7
 }
 
 .yellow {
@@ -3047,7 +3054,7 @@ body::before {
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #252627;
+    background: #0075c9;
     opacity: 1;
     left: 0;
     transition: .2s;
