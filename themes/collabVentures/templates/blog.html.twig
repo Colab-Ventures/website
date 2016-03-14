@@ -3,34 +3,314 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
-		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
-
-		{% if blog_image %}
-		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
-		{% else %}
-		<div class="blog-header">
-		{% endif %}
-			{{ page.content }}
+		<div id="loader">
+			<figure>
+				<img src="{{ url('theme://images/logo-white.svg')}}" alt="Collab Ventures">
+			</figure>
 		</div>
-
-			{% if config.plugins.breadcrumbs.enabled %}
-				{% include 'partials/breadcrumbs.html.twig' %}
-			{% endif %}
-
-		<div class="content-wrapper blog-content-list grid pure-g">
-			<div id="listing" class="block pure-u-2-3">
-				{% for child in collection %}
-			        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
-			    {% endfor %}
-
-                {% if config.plugins.pagination.enabled and collection.params.pagination %}
-                    {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
-                {% endif %}
-			</div>
-			<div id="sidebar" class="block size-1-3 pure-u-1-3">
-				{% include 'partials/sidebar.html.twig' with {'blog':page} %}
-			</div>
+		<div id="cssda" class="award-badge">
+			<a href="http://www.cssdesignawards.com/sites/web-ux-designer-juraj-molnar/26713/" target="_blank">Site of the day</a>
 		</div>
+		<main class="wrapper">
+			<!-- navigation -->
+			<div id="logo">
+				<a href="index.html" title="Collab Ventures">
+					<figure>
+						<img src="{{ url('theme://images/logo-dark.svg')}}" alt="Collab Ventures">
+					</figure>
+				</a>
+			</div>
+			<div id="nav-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<!-- navigation -->
+			<div class="menu-trigger">
+				<nav id="menu" class="cl-effect-3">
+					<ul class="menu">
+						<li class="m-1"><a href="index.html" data-type="page-transition">Home</a></li>
+						<li class="m-2"><a href="portfolio.html" data-type="page-transition">Portfolio</a></li>
+						<li class="m-3"><a href="about.html" data-type="page-transition">About</a></li>
+						<li class="m-4"><a href="contact.html" data-type="page-transition">Contact</a></li>
+						<li class="menu-social">Connect with me
+							<ul>
+								<li class="s-1"><a href="https://www.facebook.com/idwebsk" target="_blank" title="Facebook"><span class="icon-facebook"></span></a></li>
+								<li class="s-2"><a href="https://twitter.com/jm_uxdesign" target="_blank" title="Twitter"><span class="icon-twitter"></span></a></li>
+								<li class="s-4"><a href="http://jurajmolnar.deviantart.com/" target="_blank" title="Deviantart"><span class="icon-deviantart"></span></a></li>
+								<li class="s-5"><a href="https://dribbble.com/jurajmolnar" target="_blank" title="Dribbble"><span class="icon-dribbble"></span></a></li>
+								<li class="s-6"><a href="https://www.behance.net/jurajmolnar" target="_blank" title="Behance"><span>Be</span></a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="m-right-panel m-page scene_element scene_element--fadeinup">
+				<!-- top -->
+				<header class="green-bg color-wrap wow fadeInUp">
+					<figure class="bg">
+						<img src="{{ url('theme://images/about/color-bg.jpg')}}" alt="bg">
+					</figure>
+					<div class="content-med center tb-offset">
+						<h1>I design<br />Stories<br /><span>&mdash; Designer &amp; Digital artist &mdash;</span></h1>
+					</div>
+				</header>
+				<!-- about -->
+				<section class="content-med tb-offset">
+					<div class="left w25 wow fadeInLeft" data-wow-delay="0.35s">
+						<div class="services green">
+							<h3>I love huge challen- ges</h3>
+							<br class="clear" />
+						</div>
+					</div>
+					<div class="right w60 wow fadeInRight" data-wow-delay="0.35s">
+						<p class="big">I am cold blood Perfectionist, Thinker and Problem solver with a huge passion to digital craftsmanship. I love to participate on challenging projects, startups. I am searching for a fast-paced environment where great people meet and amazing things can happen.</p>
+
+						<p class="big">I was honored to work on the biggest media and social projects in the Slovakia and I participated on various digital projects as a freelancer. Today I work for a digital agency in Bratislava and at the same time cooperate with other creative individuals around the world.</p>
+					</div>
+					<br class="clear" />
+				</section>
+				<!-- content -->
+				<div class="service-wrap wow lightest-grey-bg fadeIn tb-offset-sm">
+					<div class="content-med">
+						<h3 class="centered wow fadeInUp" data-wow-delay="0.25s">Full-stack<br /> abilities</h3>
+						<div class="w50 left centered wow fadeInUp" data-wow-delay="0.25s">
+							<div class="service-item tb-offset-sm">
+								<div class="circle-icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16" preserveAspectRatio="none">
+										<style type="text/css" >
+											<![CDATA[
+                                        circle {
+												stroke: #80c918;
+												fill: transparent;
+											}
+											circle.c1 {
+												stroke-dasharray: 5, 4.5;
+												stroke-width: 0.25;
+											}
+											circle.c2 {
+												stroke-dasharray: 0.15, 0.53;
+												stroke-width: 1;
+											}
+											circle.c3 {
+												stroke-dasharray: 10, 20;
+												stroke-width: 0.25;
+											}
+											circle.c4 {
+												stroke-dasharray: 0.2, 0.2;
+												stroke-width: 0.2;
+											}
+											]]>
+										</style>
+										<circle class="c1" cx="8" cy="8" r="6.215">
+											<animateTransform attributeName="transform"
+															  attributeType="XML"
+															  type="rotate"
+															  from="0 8 8 "
+															  to="360 8 8"
+															  dur="20s"
+															  repeatCount="indefinite"/>
+
+										</circle>
+									</svg>
+									<span class="icon-lamp4"></span>
+								</div>
+								<h4>User <br />Experience</h4>
+								<div class="service-detail">
+									<ul>
+										<li>Strategy</li>
+										<li>Sketching</li>
+										<li>Wireframing</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="w50 left centered wow fadeInUp" data-wow-delay="0.25s">
+							<div class="service-item tb-offset-sm">
+								<div class="circle-icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16" preserveAspectRatio="none">
+										<circle class="c2" cx="8" cy="8" r="6.215">
+											<animateTransform attributeName="transform"
+															  attributeType="XML"
+															  type="rotate"
+															  from="0 8 8 "
+															  to="-360 8 8"
+															  dur="20s"
+															  repeatCount="indefinite"/>
+
+										</circle>
+									</svg>
+									<span class="icon-screen"></span>
+								</div>
+								<h4>Web &amp;<br />Applications</h4>
+								<div class="service-detail">
+									<ul>
+										<li>Art Direction</li>
+										<li>Web design</li>
+										<li>Mobile Design</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<br class="clear" />
+						<div class="w50 left centered wow fadeInUp" data-wow-delay="0.25s">
+							<div class="service-item tb-offset-sm">
+								<div class="circle-icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16" preserveAspectRatio="none">
+										<circle class="c3" cx="8" cy="8" r="6.215">
+											<animateTransform attributeName="transform"
+															  attributeType="XML"
+															  type="rotate"
+															  from="0 8 8 "
+															  to="-360 8 8"
+															  dur="20s"
+															  repeatCount="indefinite"/>
+
+										</circle>
+									</svg>
+									<span class="icon-palette"></span>
+								</div>
+								<h4>Vector <br />Design</h4>
+								<div class="service-detail">
+									<ul>
+										<li>Logo Design</li>
+										<li>Identity/Product</li>
+										<li>Print Design</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="w50 left centered wow fadeInUp" data-wow-delay="0.25s">
+							<div class="service-item tb-offset-sm">
+								<div class="circle-icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16" preserveAspectRatio="none">
+										<circle class="c4" cx="8" cy="8" r="6.215">
+											<animateTransform attributeName="transform"
+															  attributeType="XML"
+															  type="rotate"
+															  from="0 8 8 "
+															  to="360 8 8"
+															  dur="20s"
+															  repeatCount="indefinite"/>
+
+										</circle>
+									</svg>
+									<span class="icon-code"></span>
+								</div>
+								<h4>Development &amp;<br />Animations</h4>
+								<div class="service-detail">
+									<ul>
+										<li>HTML 5</li>
+										<li>CSS 3</li>
+										<li>jQuery</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<br class="clear" />
+					</div>
+				</div>
+				<div class="wow fadeIn tb-offset-sm">
+					<div class="content-sm">
+						<h5 class="green">Principles of my work</h5>
+						<h4><br />01. I don't take projects because of money, I have to like them first</h4>
+						<p class="big">Are you ready to build an amazing thing? I like to undertake challenges. I am excited to participate on an interesting project that improve our daily lives and proudly serves users.</p>
+						<h4><br />02. I don't negotiate about the price</h4>
+						<p class="big">Every price has its own reason. No matter if you look for goods or services. My price is no exception. You take it or leave it.</p>
+						<h4><br />03. I don't work with negative people</h4>
+						<p class="big">No negative attitude is welcomed here buddy. If you think about how things can't be done, then I can not help you.</p>
+						<h4><br />04. I solve problems, and I love it</h4>
+						<p class="big">Yes, I am a problem solver who is interested in your work. But be prepared that I will "squeeze" you until I know everything about you and your business. Great products were born from co-operation.</p>
+						<h4><br />05. I respect my clients. I expect the same</h4>
+						<p class="big">You have your strengths, I have mine. Let's put our heads together and build things that matter. I believe in trust and partnerships. When we understand each other, miracles might happen.</p>
+						<h4><br />06. I like sports and nature!!!</h4>
+						<p class="big">Physical activity helps me to recharge mental energy. If you wish, we can go for a run!</p>
+						<p class="big"><a href="contact.html" class="green link">Let's work together</a></strong> </p>
+					</div>
+				</div>
+				<div class="wow fadeIn tb-offset lightest-grey-bg">
+					<div class="content-sm centered">
+						<h2>Proud winner<br /><span>&mdash; of Website Competitions &mdash;</span></h2>
+						<br />
+						<ul class="big">
+							<li><a href="http://www.cssdesignawards.com/sites/web-ux-designer-juraj-molnar/26713/" target="_blank" class="inline-link">Cssdesignawards Site of the Day</a><br /><br /></li>
+							<li><a href="http://www.awwwards.com/best-websites/web-ux-designer-juraj-molnar/" target="_blank" class="inline-link">Awwwards Honorable Mention</a><br /><br /></li>
+							<li><a href="http://cssreel.com/Website/web-and-ux-designer-juraj-molnar" target="_blank" class="inline-link">CSS REEL Site of the Day</a><br /><br /></li>
+							<li><a href="http://webguruawards.com/user/details/WebDesignerJurajMolnr-88" target="_blank" class="inline-link">Web Guru Awards Site of the Day</a><br /><br /></li>
+							<li><a href="http://www.csslight.com/website/11731/Web-designer-Juraj-Molnar" target="_blank" class="inline-link">CSS Light Featured of the Day</a><br /><br /></li>
+						</ul>
+					</div>
+				</div>
+				<!-- clients -->
+				<!--
+                <section class="content-med tb-offset">
+                    <div class="left w25 wow fadeInLeft" data-wow-delay="0.35s">
+                        <div class="services green">
+                            <h3>Clients</h3>
+                            <br class="clear" />
+                        </div>
+                    </div>
+                    <div class="right w60 wow fadeInRight" data-wow-delay="0.35s">
+                        <p class="big">asshole</p>
+                    </div>
+                    <br class="clear" />
+                </section>
+                -->
+				<!-- social -->
+				<div class="sharer sharer-about tb-offset centered wow fadeInUp color-wrap">
+					<figure>
+						<img src="{{ url('theme://images/about/color-bg.jpg')}}" alt="follow">
+					</figure>
+
+					<h3 class="wow fadeInUp">Connect with me</h3>
+					<div class="wow fadeInUp" data-wow-delay="0.2s">
+						<a href="https://www.facebook.com/idwebsk" target="_blank" class="s-button" rel="nofollow" title="Like me on Facebook"><span class="icon-facebook"></span></a>
+						<a href="https://twitter.com/jm_uxdesign" class="s-button" rel="nofollow" target="_blank" title="Follow me on Twitter"><span class="icon-twitter"></span></a>
+						<a href="http://jurajmolnar.deviantart.com/" class="s-button" rel="nofollow" target="_blank" title="Deviantart"><span class="icon-deviantart"></span></a>
+						<a href="https://dribbble.com/jurajmolnar" class="s-button" target="_blank" rel="nofollow" title="Dribbble"><span class="icon-dribbble"></span></a>
+						<a href="https://www.behance.net/jurajmolnar" class="s-button" target="_blank" title="Behance"><span>Be</span></a>
+					</div>
+				</div>
+
+				<!-- contact -->
+				<div class="related-projects">
+					<a class="rel-item orange" href="contact.html">
+						<h4><span class="icon-envelope"></span> Contact me</h4>
+					</a>
+					<a class="rel-item cyan" href="portfolio.html">
+						<h4><span class="icon-palette"></span> View Portfolio</h4>
+					</a>
+					<br class="clear" />
+				</div>
+				<div class="footer">
+					<footer class="content tb-offset centered">
+						<p>&copy; 2015 All rights reserved. Design and development by Collab Ventures</p>
+						<p class="white">Projects made with <span class="icon-heart7 red"></span></p>
+						<ul class="footer-social">
+							<li>
+								<a href="https://www.facebook.com/idwebsk" target="_blank" title="Facebook"><span class="icon-facebook"></span></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/jm_uxdesign" target="_blank" title="Twitter"><span class="icon-twitter"></span></a>
+							</li>
+							<li>
+								<a href="http://jurajmolnar.deviantart.com/" target="_blank" title="Deviantart"><span class="icon-deviantart"></span></a>
+							</li>
+							<li>
+								<a href="https://dribbble.com/jurajmolnar" target="_blank" title="Dribbble"><span class="icon-dribbble"></span></a>
+							</li>
+							<li>
+								<a href="https://www.behance.net/jurajmolnar" target="_blank" title="Behance"><span>Be</span></a>
+							</li>
+						</ul>
+					</footer>
+				</div>
+			</div>
+			<div id="back-top">
+				<a href="#top"><span class="icon icon-arrow-up4"></span><span class="fade">TOP</span></a>
+			</div>
+		</main>
 	{% endblock %}
 
 {% endembed %}
