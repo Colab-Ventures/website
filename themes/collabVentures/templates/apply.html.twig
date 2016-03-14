@@ -1,0 +1,59 @@
+{% embed 'partials/base.html.twig' %}
+
+	{% set collection = page.collection() %}
+
+	{% block content %}
+		<main class="wrapper page-title">
+
+			{% include 'partials/navigation.html.twig' %}
+
+			<!-- content -->
+			<div class="m-page scene_element scene_element--fadeinup">
+				<div>
+					<!-- about -->
+					<section class="content-med tb-offset">
+						<div class="left w25 wow fadeInLeft" data-wow-delay="0.35s">
+							<div class="services green">
+								<h3>Apply</h3>
+								<br class="clear" />
+							</div>
+						</div>
+						<div class="right w60 wow fadeInRight" data-wow-delay="0.35s">
+							<h4>What we look for</h4>
+							<p class="big">We look at companies that are at the napkin doodle, concept, super seed, and seed stage. These can be both the bizarre and the beautiful.
+								Not every company has to be a 100M+ company to be great, it just has to be profitable and have founders that believe in it. If you are going to start a coffee shop, make sure it is the best coffee shop in the world!
+								Whatever your proposition is, it must be simple, clear and easy to grasp. We are simple people, we expect you to bring the brains.</p>
+
+							<h4>What we need</h4>
+							<p class="big">
+								A billion dollar idea is worthless without the people to make it happen.
+								We need founders that are passionate about their companies, fanatical about their products, that love their work, as this is what you will be doing 20 hours a day to make it succeed. They must realise starting your own business is extremely hard, there are no shortcuts, and they must be prepared for the extreme highs and lows that can accrue daily, and have the tenacity to NEVER GIVE UP.
+								This doesn't have to be your first venture, you can have started before and failed, you will certainly have learnt more from your failings than others successes.
+								“Sometimes life is going to hit you in the head with a brick. Don't lose faith.” Steve Jobs
+							</p>
+
+							<h4>What we expect</h4>
+							<p class="big">
+								We expect you to know more about your industry than we do, you will have researched the market and really know its size, you will have the experience in your sector, you know what you want to achieve. You will really know what your customers want. You should understand what the problem is you are trying to solve. This is a business for us and it should be for you also.
+							</p>
+							<p class="big">“The first principle is that you must not fool yourself as you are the easiest person to fool.”
+								Richard Feynman</p>
+
+							<h4>What we love</h4>
+							<p class="big">
+								We love companies and founders that want to empower and enable others to make change in their lives with the products they create. That love to work collaboratively and spread the love, you need far more knowledge than one person can have to make it in business.
+
+								Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me. Steve Jobs
+
+
+								Due to the focus we give to each opportunity, we have limited time resources so we have to be very selective about the companies and ideas we can work with. please fill this form in, and we will review every pitch that comes through and get back to you with 14 days.
+							</p>
+						</div>
+						<br class="clear" />
+					</section>
+				</div>
+			</div>
+		</main>
+	{% endblock %}
+
+{% endembed %}
