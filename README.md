@@ -1,6 +1,8 @@
 # Grav Blog Site Skeleton
 
-1The *Blog Site* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a blog set up using Grav.
+DEVELOP
+
+The *Blog Site* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a blog set up using Grav.
 
 # Installation
 
