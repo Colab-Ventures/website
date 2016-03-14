@@ -1,7 +1,7 @@
 # Grav Blog Site Skeleton
 
-1The *Blog Site* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a blog set up using Grav.
-
+The *Blog Site* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a blog set up using Grav.
+LIVE
 # Installation
 
 To install this package, you will essentially be replacing the default `user` folder with the skeleton. To do this, download the zip version of this repository and unzip it under `/your/site/grav/`. Then, rename the folder to `user`. 
