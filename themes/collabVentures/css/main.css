@@ -3280,6 +3280,15 @@ body::before {
     top: 52%
 }
 
+.menu-trigger.opened .m-6 {
+    -webkit-transition-delay: .6s;
+    -moz-transition-delay: .6s;
+    -o-transition-delay: .6s;
+    -ms-transition-delay: .6s;
+    transition-delay: .6s;
+    top: 62%
+}
+
 .menu-trigger.opened a.active, .menu-trigger.opened a:hover {
     color: #0075c9
 }
@@ -3290,7 +3299,7 @@ body::before {
     -o-transition-delay: 1.1s;
     -ms-transition-delay: 1.1s;
     transition-delay: 1.1s;
-    top: 57%
+    top: 72%
 }
 
 .menu-trigger.opened .s-1, .menu-trigger.opened .s-2, .menu-trigger.opened .s-3, .menu-trigger.opened .s-4, .menu-trigger.opened .s-5, .menu-trigger.opened .s-6 {
