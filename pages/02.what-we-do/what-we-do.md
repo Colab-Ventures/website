@@ -1,6 +1,6 @@
 ---
-title: How we work
-blog_url: how-we-work
+title: What we do
+blog_url: what-we-do
 body_classes: header-image fullwidth
 
 sitemap:
