@@ -2110,6 +2110,11 @@ br.clear {
 .w460 {
     width: 360px;
 }
+@media only screen and (max-width: 360px) {
+    .w460 {
+        width: 100%;
+    }
+}
 
 .w460:hover {
     width: 455px;
@@ -2430,7 +2435,7 @@ body::before {
     background-color: #0075c9;
     z-index: 5000;
     opacity: 1;
-    left: -20%;
+    left: -26%;
     overflow: hidden;
     transform: skew(-15deg, 0);
     -moz-transform: skew(-15deg, 0);
@@ -2450,7 +2455,7 @@ body::before {
     -ms-transition-delay: .2s;
     transition-delay: .2s;
     opacity: 1;
-    left: -220%
+    left: -226%
 }
 
 .loaded main.wrapper {
@@ -4561,7 +4566,7 @@ body::before {
     }
 
     .button.h-button {
-        color: #252627 !important;
+        color: #0075c9 !important;
         padding: 20px 45px !important
     }
 
@@ -4570,7 +4575,7 @@ body::before {
     }
 
     .button.h-button:hover {
-        color: #252627 !important;
+        color: #0075c9 !important;
         padding: 20px 45px !important
     }
 
@@ -4768,10 +4773,6 @@ body::before {
 
     .particles-wrap header {
         padding: 90px 0
-    }
-
-    .h-button {
-        letter-spacing: .1em !important
     }
 
     .h-wrap {
@@ -5108,6 +5109,13 @@ body::before {
 
 #logo-colab {
     width: 130px;
+}
+
+@media only screen and (max-width: 320px) {
+
+    #logo-colab {
+        width: 80px;
+    }
 }
 
 /*.box-grid__box--media img {*/
