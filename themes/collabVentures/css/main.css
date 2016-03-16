@@ -2488,7 +2488,7 @@ body::before {
     border: 4px solid;
     display: inline-block;
     font-weight: 400;
-    font-size: .8em !important;
+    font-size: 1em !important;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .4em;
@@ -3233,7 +3233,7 @@ body::before {
     background-color: transparent
 }
 
-.menu-trigger .m-1 a:hover, .menu-trigger .m-2 a:hover, .menu-trigger .m-3 a:hover, .menu-trigger .m-4 a:hover {
+.menu-trigger .m-1 a:hover, .menu-trigger .m-2 a:hover, .menu-trigger .m-3 a:hover, .menu-trigger .m-4 a:hover, .m-5 a:hover, .m-6 a:hover {
     letter-spacing: .4em
 }
 
@@ -3321,7 +3321,7 @@ body::before {
     -o-transition-delay: 1.1s;
     -ms-transition-delay: 1.1s;
     transition-delay: 1.1s;
-    top: 62%
+    top: 71%
 }
 
 .menu-trigger.opened .s-1, .menu-trigger.opened .s-2, .menu-trigger.opened .s-3, .menu-trigger.opened .s-4, .menu-trigger.opened .s-5, .menu-trigger.opened .s-6 {
@@ -5087,17 +5087,15 @@ body::before {
     height: 300px;
 }
 
-.box-grid__box--media {
-
-}
-
 .box-grid__box--text {
-    border: 20px solid #f2f2f2;
+    border: 8px solid #f2f2f2;
     background-color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 15px;
+    text-align: left;
+    color: #626262;
 }
 
 .box-grid__box--text span {
@@ -5107,6 +5105,29 @@ body::before {
     font-size: 14px;
     font-weight: 100;
 }
+
+#logo-colab {
+    width: 130px;
+}
+
+/*.box-grid__box--media img {*/
+    /*transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+    /*-webkit-transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+    /*-moz-transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+    /*-o-transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+/*}*/
+
+/*.box-grid__box--media {*/
+    /*z-index: 999;*/
+/*}*/
+
+/*.box-grid__box--media:hover img {*/
+    /*transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-webkit-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+/*}*/
 /* portfolio custom end */
 
 @media screen and (max-width: 640px) {
