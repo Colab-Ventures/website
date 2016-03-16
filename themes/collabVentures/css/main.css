@@ -5087,17 +5087,15 @@ body::before {
     height: 300px;
 }
 
-.box-grid__box--media {
-
-}
-
 .box-grid__box--text {
-    border: 20px solid #f2f2f2;
+    border: 8px solid #f2f2f2;
     background-color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 15px;
+    text-align: justify;
+    color: #626262;
 }
 
 .box-grid__box--text span {
@@ -5107,6 +5105,25 @@ body::before {
     font-size: 14px;
     font-weight: 100;
 }
+
+/*.box-grid__box--media img {*/
+    /*transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+    /*-webkit-transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+    /*-moz-transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+    /*-o-transition: all 350ms cubic-bezier(.215, .61, .215, 1);*/
+/*}*/
+
+/*.box-grid__box--media {*/
+    /*z-index: 999;*/
+/*}*/
+
+/*.box-grid__box--media:hover img {*/
+    /*transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-webkit-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+/*}*/
 /* portfolio custom end */
 
 @media screen and (max-width: 640px) {
