@@ -5094,7 +5094,7 @@ body::before {
     justify-content: center;
     flex-direction: column;
     padding: 15px;
-    text-align: justify;
+    text-align: left;
     color: #626262;
 }
 
