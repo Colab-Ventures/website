@@ -1,55 +1,113 @@
 {% embed 'partials/base.html.twig' %}
 
-	{% set collection = page.collection() %}
+    {% set collection = page.collection() %}
 
-	{% block content %}
-		<main class="wrapper page-title">
+    {% block content %}
+        <main class="wrapper page-title">
 
-			{% include 'partials/navigation.html.twig' %}
+            {% include 'partials/navigation.html.twig' %}
 
-			<!-- content -->
-			<div class="m-page scene_element scene_element--fadeinup">
-				<div>
-					<!-- about -->
-					<section class="content-med tb-offset" id="page-1" data-et-id="1">
-						<div class="left w25 wow fadeInLeft" data-wow-delay="0.35s">
-							<div class="services green">
-								<h3>Come to work with us</h3>
-								<br class="clear" />
-							</div>
-						</div>
-						<div class="right w60 wow fadeInRight" data-wow-delay="0.35s">
-							<p class="big">
-								We are always looking for forward thinking creative people to join our team and to help shape great new companies. We believe in collaboration, remote working, and that bringing the best minds together can help reshape world. We believe that teams work better with vested interest in what they create as a collective. All works are equity based.<br /><br />
-								You must have a minimum of 20 hours per week and be used to working in an agile way with remote teams.
-							</p>
-						</div>
+            <!-- content -->
+            <div class="m-page scene_element scene_element--fadeinup">
+                <div>
+                    <!-- about -->
+                    <section class="content-med tb-offset" id="page-1" data-et-id="1">
+                        <div class="left w25 wow fadeInLeft" data-wow-delay="0.35s">
+                            <div class="services green">
+                                <h3>Work with us</h3>
+                                <br class="clear"/>
+                            </div>
+                        </div>
+                        <div class="right w60 wow fadeInRight" data-wow-delay="0.35s">
+                            {#<h4>What are we looking for?</h4>#}
+                            <p class="big">
+                                We are always looking for forward thinking creative people to join our team and to help
+                                shape great companies. We believe in collaboration, remote working environments, and
+                                that bringing the best minds together can help reshape the world. We believe that teams
+                                work better with <span class="blue">vested interest</span> in what they create as a
+                                collective.
+                            </p>
 
-						<div class="right w60 wow fadeInRight" data-wow-delay="0.35s">
-							<p class="big">
-								Firstly we are a team, we all play a part in choosing the companies we work with as ultimately at some stage we all will.
-							</p>
-							<p class="big" style="margin-bottom: 0px; padding-bottom: 0px;">
-								We listen intensly, we speak frankly, but more importantly directly and honestly
-							</p>
-							<span class="blue">Honesty is an expensive gift, don’t expect it from cheap people . W Buffett</span>
-							<p class="big">
-								Hadleigh Bolt J.P  - LI, email- <br />
-								Peter Culak _ LI, GH, email<br />
-								Francis Gane- LI, email<br />
-								Ciaran Kelly GH LI, email
-							</p>
-						</div>
+                            <h4>Why do we need you?</h4>
 
-						<div class="right w60 title-subhead wow fadeInUp animated" data-wow-delay="0.35s">
-							<p class="center">
-								{% include 'partials/apply-button.html.twig' %}
-							</p>
-						</div>
-					</section>
-				</div>
-			</div>
-		</main>
-	{% endblock %}
+                            <p class="big">
+                                Our assessment board receives hundreds of applications for investment every month. We
+                                apply a rigorous selection protocol and only select the applications which we believe
+                                are most likely to benefit most from our approach. As such, we have a pipeline of
+                                interesting projects which we are investing in at any one time. While our investment
+                                may come in the form of a cash injection, more typically, we aim to invest in these
+                                projects by providing an appropriate and integrated team of <span class="blue">specialists</span>,
+                                suited to the needs of the particular project. Due to the diversity of projects that
+                                we are likely to invest in, and due to the tightly focused, iterative and agile way in
+                                which we manage those investments, we need access to a deep and wide <span class="blue">talent pool</span>
+                                of amazing people from which we can create these teams.
+                            </p>
+
+                            <h4>How does it work?</h4>
+
+                            <p class="big">
+                                We are looking for collaborators who can bring expertise and knowledge across many skill
+                                sets. Maybe you are a specialist in a particular area, or maybe you have broad
+                                experience
+                                across many differing areas. We are looking for collaborators who have the <span class="blue">discipline</span> to
+                                make a commitment to a project, and then <span class="blue">honour</span> that commitment. In our experience, a
+                                theoretical commitment of <span class="blue">20 hours per week</span> is the level that has worked for us. It has
+                                been difficult for us to establish the level of team integration that we require if we
+                                cannot rely on at least 20 hours of time commitment, so if you don't think you can
+                                commit to that level of investment, then this opportunity is not what you are looking
+                                for.
+
+                                <br/>
+                                <br/>
+
+                                If you believe you can make a sustained commitment of 20 hours per week, and you believe
+                                you are a specialist in your field, then we definitely want to hear from you. Here is a
+                                sample of the kinds of people we are always looking to hear from. Don't worry if you
+                                don't
+                                see your skills on this list: if you are talented, believe you can impress us, and most
+                                importantly can make the required commitment, then please don't hesitate to contact us
+                                using the button below.
+                            </p>
+
+                            <h4>Skillsets</h4>
+                            <ul class="big">
+                                <li>Agile Software Engineers (PHP, JavaScript, HTML, CSS)</li>
+                                <li>Agile Project Managers</li>
+                                <li>Agile User Experience Designers / UI Designers</li>
+                                <li>Agile QA / Testers</li>
+                                <li>Agile Business Analysts</li>
+                            </ul>
+
+                            <h4>Will I get paid?</h4>
+
+                            <p class="big">
+                                We are an amalgamation of an angel/venture capital/incubator investment group. As a
+                                group
+                                we receive applications for investment and select only those for which we believe we can
+                                make a meaningful contribution at a very early stage. These investments tend to be
+                                highly
+                                focused on establishing traction for the business model, and are typically of the order
+                                of a couple of weeks to 3 months. In return, the group receives equity in the business.
+                                As a collaborator, you will become the beneficiary owner of a portion of this equity.
+                                In some cases, we may also choose to invest cash. This may come in the form of a direct
+                                cash injection to the business, but we may alternatively decide that this cash would be
+                                better spent by providing a stipend payment to members of the team we select to provide
+                                the bulk of our investment. Therefore, although there is always the possibility of paid
+                                work, we are mainly interested in building a talent pool of like minded individuals who
+                                understand that this is an <span class="blue">investment opportunity</span>, rather than an employment
+                                opportunity.
+                            </p>
+                        </div>
+
+                        <div class="right w60 title-subhead wow fadeInUp animated" data-wow-delay="0.35s">
+                            <p class="center">
+                                {% include 'partials/apply-button.html.twig' %}
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    {% endblock %}
 
 {% endembed %}
