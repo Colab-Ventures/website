@@ -3233,7 +3233,7 @@ body::before {
     background-color: transparent
 }
 
-.menu-trigger .m-1 a:hover, .menu-trigger .m-2 a:hover, .menu-trigger .m-3 a:hover, .menu-trigger .m-4 a:hover {
+.menu-trigger .m-1 a:hover, .menu-trigger .m-2 a:hover, .menu-trigger .m-3 a:hover, .menu-trigger .m-4 a:hover, .m-5 a:hover, .m-6 a:hover {
     letter-spacing: .4em
 }
 
